@@ -1,0 +1,1 @@
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/LuaGL.dir/Main.cpp.o CMakeFiles/LuaGL.dir/Start.cpp.o CMakeFiles/LuaGL.dir/LuaBridgeHelpers.cpp.o  -o LuaGL ../libs/lua/liblua.a 

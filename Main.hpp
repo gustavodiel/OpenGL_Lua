@@ -6,11 +6,18 @@
 #define PROJECT_MAIN_HPP
 
 
+#include <lua.h>
+
 class Main {
 
 public:
 
     void Start();
+
+
+protected:
+
+    lua_State*  L;
 
 };
 

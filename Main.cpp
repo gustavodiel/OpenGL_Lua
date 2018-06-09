@@ -3,11 +3,19 @@
 //
 
 #include <cstdio>
+#include <iostream>
 
 #include "Main.hpp"
 
+#include "LuaBridgeHelpers.hpp"
+
+using namespace std;
+
+
 void Main::Start() {
 
-    printf("Hi");
+    LuaBridgeHelpers *luaHelper = new LuaBridgeHelpers();
+
+    luaHelper->test();
 
 }
